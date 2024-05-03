@@ -1,11 +1,37 @@
-.c-tab--btns {display: flex; flex-direction: row; gap: 1rem;}
+.c-tab--btns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 .c-tab--content {
-    padding: 1rem;
+  padding: 1rem;
 }
 .c-tab--content > * {
-    display: none;
+  display: none;
 }
 
 .c-tab--content > .c-tab--active {
-    display: block;
+  display: block;
+}
+
+.c-numeric-input--error {
+  border: 2px solid red;
+  border-radius: 3px;
+}
+
+.c-numeric-input--valid {
+  border: 2px solid green;
+  border-radius: 3px;
+}
+
+.c-numeric-input__error-msg {
+  color: red;
+}
+
+.input-group {
+  display: flex;
+}
+.input-column {
+  display: flex;
+  flex-direction: column;
 }
